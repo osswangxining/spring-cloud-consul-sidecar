@@ -1,0 +1,6 @@
+/Users/xiningwang/localgit/spring-cloud-consul/spring-cloud-consul-config/src/test/java/org/springframework/cloud/consul/config/ConsulPropertySourceLocatorFilesTests.java
+/Users/xiningwang/localgit/spring-cloud-consul/spring-cloud-consul-config/src/test/java/org/springframework/cloud/consul/config/ConsulPropertySourceTests.java
+/Users/xiningwang/localgit/spring-cloud-consul/spring-cloud-consul-config/src/test/java/org/springframework/cloud/consul/config/ConsulPropertySourceLocatorFailFastTests.java
+/Users/xiningwang/localgit/spring-cloud-consul/spring-cloud-consul-config/src/test/java/org/springframework/cloud/consul/config/ConfigWatchTests.java
+/Users/xiningwang/localgit/spring-cloud-consul/spring-cloud-consul-config/src/test/java/org/springframework/cloud/consul/config/ConsulPropertySourceLocatorAppNameCustomizedTests.java
+/Users/xiningwang/localgit/spring-cloud-consul/spring-cloud-consul-config/src/test/java/org/springframework/cloud/consul/config/ConsulPropertySourceLocatorTests.java

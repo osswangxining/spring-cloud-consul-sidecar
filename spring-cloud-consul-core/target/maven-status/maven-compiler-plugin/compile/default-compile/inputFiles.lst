@@ -1,0 +1,7 @@
+/Users/xiningwang/localgit/spring-cloud-consul/spring-cloud-consul-core/src/main/java/org/springframework/cloud/consul/model/SerfStatusEnum.java
+/Users/xiningwang/localgit/spring-cloud-consul/spring-cloud-consul-core/src/main/java/org/springframework/cloud/consul/ConsulEndpoint.java
+/Users/xiningwang/localgit/spring-cloud-consul/spring-cloud-consul-core/src/main/java/org/springframework/cloud/consul/ConsulHealthIndicator.java
+/Users/xiningwang/localgit/spring-cloud-consul/spring-cloud-consul-core/src/main/java/org/springframework/cloud/consul/ConsulAutoConfiguration.java
+/Users/xiningwang/localgit/spring-cloud-consul/spring-cloud-consul-core/src/main/java/org/springframework/cloud/consul/ConditionalOnConsulEnabled.java
+/Users/xiningwang/localgit/spring-cloud-consul/spring-cloud-consul-core/src/main/java/org/springframework/cloud/consul/RetryProperties.java
+/Users/xiningwang/localgit/spring-cloud-consul/spring-cloud-consul-core/src/main/java/org/springframework/cloud/consul/ConsulProperties.java

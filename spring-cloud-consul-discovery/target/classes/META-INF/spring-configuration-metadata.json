@@ -1,0 +1,253 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "org.springframework.cloud.consul.discovery.ConsulDiscoveryProperties",
+      "name": "spring.cloud.consul.discovery",
+      "type": "org.springframework.cloud.consul.discovery.ConsulDiscoveryProperties"
+    },
+    {
+      "sourceType": "org.springframework.cloud.consul.discovery.HeartbeatProperties",
+      "name": "spring.cloud.consul.discovery.heartbeat",
+      "type": "org.springframework.cloud.consul.discovery.HeartbeatProperties"
+    },
+    {
+      "sourceType": "org.springframework.cloud.consul.discovery.ConsulDiscoveryProperties",
+      "name": "spring.cloud.consul.discovery.lifecycle",
+      "sourceMethod": "public org.springframework.cloud.consul.discovery.ConsulDiscoveryProperties.Lifecycle getLifecycle() ",
+      "type": "org.springframework.cloud.consul.discovery.ConsulDiscoveryProperties$Lifecycle"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "org.springframework.cloud.consul.discovery.ConsulDiscoveryProperties",
+      "name": "spring.cloud.consul.discovery.acl-token",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.cloud.consul.discovery.ConsulDiscoveryProperties",
+      "name": "spring.cloud.consul.discovery.catalog-services-watch-delay",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "org.springframework.cloud.consul.discovery.ConsulDiscoveryProperties",
+      "name": "spring.cloud.consul.discovery.catalog-services-watch-timeout",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "org.springframework.cloud.consul.discovery.ConsulDiscoveryProperties",
+      "name": "spring.cloud.consul.discovery.datacenters",
+      "description": "Map of serviceId's -> datacenter to query for in server list.\n This allows looking up services in another datacenters.",
+      "type": "java.util.Map<java.lang.String,java.lang.String>"
+    },
+    {
+      "sourceType": "org.springframework.cloud.consul.discovery.ConsulDiscoveryProperties",
+      "name": "spring.cloud.consul.discovery.default-query-tag",
+      "description": "Tag to query for in service list if one is not listed in serverListQueryTags.",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.cloud.consul.discovery.ConsulDiscoveryProperties",
+      "name": "spring.cloud.consul.discovery.default-zone-metadata-name",
+      "description": "Service instance zone comes from metadata.\n This allows changing the metadata tag name.",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.cloud.consul.discovery.ConsulDiscoveryProperties",
+      "name": "spring.cloud.consul.discovery.deregister",
+      "description": "Disable automatic de-registration of service in consul.",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "org.springframework.cloud.consul.discovery.ConsulDiscoveryProperties",
+      "name": "spring.cloud.consul.discovery.enabled",
+      "description": "Is service discovery enabled?",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "org.springframework.cloud.consul.discovery.ConsulDiscoveryProperties",
+      "name": "spring.cloud.consul.discovery.fail-fast",
+      "description": "Throw exceptions during service registration if true, otherwise, log\n warnings (defaults to true).",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "org.springframework.cloud.consul.discovery.ConsulDiscoveryProperties",
+      "name": "spring.cloud.consul.discovery.health-check-critical-timeout",
+      "description": "Timeout to deregister services critical for longer than timeout (e.g. 30m).\n Requires consul version 7.x or higher.",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.cloud.consul.discovery.ConsulDiscoveryProperties",
+      "name": "spring.cloud.consul.discovery.health-check-interval",
+      "description": "How often to perform the health check (e.g. 10s), defaults to 10s.",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.cloud.consul.discovery.ConsulDiscoveryProperties",
+      "name": "spring.cloud.consul.discovery.health-check-path",
+      "description": "Alternate server path to invoke for health checking",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.cloud.consul.discovery.ConsulDiscoveryProperties",
+      "name": "spring.cloud.consul.discovery.health-check-timeout",
+      "description": "Timeout for health check (e.g. 10s).",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.cloud.consul.discovery.ConsulDiscoveryProperties",
+      "name": "spring.cloud.consul.discovery.health-check-tls-skip-verify",
+      "description": "Skips certificate verification during service checks if true, otherwise\n runs certificate verification.",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "org.springframework.cloud.consul.discovery.ConsulDiscoveryProperties",
+      "name": "spring.cloud.consul.discovery.health-check-url",
+      "description": "Custom health check url to override default",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.cloud.consul.discovery.HeartbeatProperties",
+      "name": "spring.cloud.consul.discovery.heartbeat.enabled",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "org.springframework.cloud.consul.discovery.HeartbeatProperties",
+      "name": "spring.cloud.consul.discovery.heartbeat.heartbeat-interval",
+      "type": "org.joda.time.Period"
+    },
+    {
+      "sourceType": "org.springframework.cloud.consul.discovery.HeartbeatProperties",
+      "name": "spring.cloud.consul.discovery.heartbeat.interval-ratio",
+      "type": "java.lang.Double"
+    },
+    {
+      "sourceType": "org.springframework.cloud.consul.discovery.HeartbeatProperties",
+      "name": "spring.cloud.consul.discovery.heartbeat.ttl-unit",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.cloud.consul.discovery.HeartbeatProperties",
+      "name": "spring.cloud.consul.discovery.heartbeat.ttl-value",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "org.springframework.cloud.consul.discovery.ConsulDiscoveryProperties",
+      "name": "spring.cloud.consul.discovery.host-info",
+      "type": "org.springframework.cloud.commons.util.InetUtils$HostInfo"
+    },
+    {
+      "sourceType": "org.springframework.cloud.consul.discovery.ConsulDiscoveryProperties",
+      "name": "spring.cloud.consul.discovery.hostname",
+      "description": "Hostname to use when accessing server",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.cloud.consul.discovery.ConsulDiscoveryProperties",
+      "name": "spring.cloud.consul.discovery.instance-group",
+      "description": "Service instance group",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.cloud.consul.discovery.ConsulDiscoveryProperties",
+      "name": "spring.cloud.consul.discovery.instance-id",
+      "description": "Unique service instance id",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.cloud.consul.discovery.ConsulDiscoveryProperties",
+      "name": "spring.cloud.consul.discovery.instance-zone",
+      "description": "Service instance zone",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.cloud.consul.discovery.ConsulDiscoveryProperties",
+      "name": "spring.cloud.consul.discovery.ip-address",
+      "description": "IP address to use when accessing service (must also set preferIpAddress to use)",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.cloud.consul.discovery.ConsulDiscoveryProperties$Lifecycle",
+      "name": "spring.cloud.consul.discovery.lifecycle.enabled",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "org.springframework.cloud.consul.discovery.ConsulDiscoveryProperties",
+      "name": "spring.cloud.consul.discovery.management-port",
+      "description": "Port to register the management service under (defaults to management port)",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "org.springframework.cloud.consul.discovery.ConsulDiscoveryProperties",
+      "name": "spring.cloud.consul.discovery.management-suffix",
+      "description": "Suffix to use when registering management service",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.cloud.consul.discovery.ConsulDiscoveryProperties",
+      "name": "spring.cloud.consul.discovery.management-tags",
+      "description": "Tags to use when registering management service",
+      "type": "java.util.List<java.lang.String>"
+    },
+    {
+      "sourceType": "org.springframework.cloud.consul.discovery.ConsulDiscoveryProperties",
+      "name": "spring.cloud.consul.discovery.port",
+      "description": "Port to register the service under (defaults to listening port)",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "org.springframework.cloud.consul.discovery.ConsulDiscoveryProperties",
+      "name": "spring.cloud.consul.discovery.prefer-agent-address",
+      "description": "Source of how we will determine the address to use",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "org.springframework.cloud.consul.discovery.ConsulDiscoveryProperties",
+      "name": "spring.cloud.consul.discovery.prefer-ip-address",
+      "description": "Use ip address rather than hostname during registration",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "org.springframework.cloud.consul.discovery.ConsulDiscoveryProperties",
+      "name": "spring.cloud.consul.discovery.query-passing",
+      "description": "Add the 'passing` parameter to \/v1\/health\/service\/serviceName.\n This pushes health check passing to the server.",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "org.springframework.cloud.consul.discovery.ConsulDiscoveryProperties",
+      "name": "spring.cloud.consul.discovery.register",
+      "description": "Register as a service in consul.",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "org.springframework.cloud.consul.discovery.ConsulDiscoveryProperties",
+      "name": "spring.cloud.consul.discovery.register-health-check",
+      "description": "Register health check in consul. Useful during development of a service.",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "org.springframework.cloud.consul.discovery.ConsulDiscoveryProperties",
+      "name": "spring.cloud.consul.discovery.scheme",
+      "description": "Whether to register an http or https service",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.cloud.consul.discovery.ConsulDiscoveryProperties",
+      "name": "spring.cloud.consul.discovery.server-list-query-tags",
+      "description": "Map of serviceId's -> tag to query for in server list.\n This allows filtering services by a single tag.",
+      "type": "java.util.Map<java.lang.String,java.lang.String>"
+    },
+    {
+      "sourceType": "org.springframework.cloud.consul.discovery.ConsulDiscoveryProperties",
+      "name": "spring.cloud.consul.discovery.service-name",
+      "description": "Service name",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.cloud.consul.discovery.ConsulDiscoveryProperties",
+      "name": "spring.cloud.consul.discovery.tags",
+      "description": "Tags to use when registering service",
+      "type": "java.util.List<java.lang.String>"
+    }
+  ]
+}

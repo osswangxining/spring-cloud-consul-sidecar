@@ -1,0 +1,6 @@
+/Users/xiningwang/localgit/spring-cloud-consul/spring-cloud-consul-binder/src/main/java/org/springframework/cloud/consul/binder/config/ConsulBinderProperties.java
+/Users/xiningwang/localgit/spring-cloud-consul/spring-cloud-consul-binder/src/main/java/org/springframework/cloud/consul/binder/EventService.java
+/Users/xiningwang/localgit/spring-cloud-consul/spring-cloud-consul-binder/src/main/java/org/springframework/cloud/consul/binder/config/ConsulBinderConfiguration.java
+/Users/xiningwang/localgit/spring-cloud-consul/spring-cloud-consul-binder/src/main/java/org/springframework/cloud/consul/binder/ConsulSendingHandler.java
+/Users/xiningwang/localgit/spring-cloud-consul/spring-cloud-consul-binder/src/main/java/org/springframework/cloud/consul/binder/ConsulInboundMessageProducer.java
+/Users/xiningwang/localgit/spring-cloud-consul/spring-cloud-consul-binder/src/main/java/org/springframework/cloud/consul/binder/ConsulBinder.java

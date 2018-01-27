@@ -1,0 +1,7 @@
+org/springframework/cloud/consul/sidecar/SidecarProperties.class
+org/springframework/cloud/consul/sidecar/EnableSidecar.class
+org/springframework/cloud/consul/sidecar/SidecarConfiguration.class
+org/springframework/cloud/consul/sidecar/LocalApplicationHealthIndicator.class
+META-INF/spring-configuration-metadata.json
+org/springframework/cloud/consul/sidecar/SidecarController.class
+org/springframework/cloud/consul/sidecar/SidecarConfiguration$EurekaInstanceConfigBeanConfiguration.class

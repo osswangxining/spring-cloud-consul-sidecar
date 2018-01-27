@@ -1,0 +1,79 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "org.springframework.cloud.consul.ConsulEndpoint",
+      "name": "endpoints.consul",
+      "type": "org.springframework.cloud.consul.ConsulEndpoint"
+    },
+    {
+      "sourceType": "org.springframework.cloud.consul.ConsulProperties",
+      "name": "spring.cloud.consul",
+      "type": "org.springframework.cloud.consul.ConsulProperties"
+    },
+    {
+      "sourceType": "org.springframework.cloud.consul.RetryProperties",
+      "name": "spring.cloud.consul.retry",
+      "type": "org.springframework.cloud.consul.RetryProperties"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "org.springframework.cloud.consul.ConsulEndpoint",
+      "name": "endpoints.consul.enabled",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "org.springframework.cloud.consul.ConsulEndpoint",
+      "name": "endpoints.consul.id",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.cloud.consul.ConsulEndpoint",
+      "name": "endpoints.consul.sensitive",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "org.springframework.cloud.consul.ConsulProperties",
+      "name": "spring.cloud.consul.enabled",
+      "description": "Is spring cloud consul enabled",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "org.springframework.cloud.consul.ConsulProperties",
+      "name": "spring.cloud.consul.host",
+      "description": "Consul agent hostname. Defaults to 'localhost'.",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.cloud.consul.ConsulProperties",
+      "name": "spring.cloud.consul.port",
+      "description": "Consul agent port. Defaults to '8500'.",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "org.springframework.cloud.consul.RetryProperties",
+      "name": "spring.cloud.consul.retry.initial-interval",
+      "description": "Initial retry interval in milliseconds.",
+      "type": "java.lang.Long"
+    },
+    {
+      "sourceType": "org.springframework.cloud.consul.RetryProperties",
+      "name": "spring.cloud.consul.retry.max-attempts",
+      "description": "Maximum number of attempts.",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "org.springframework.cloud.consul.RetryProperties",
+      "name": "spring.cloud.consul.retry.max-interval",
+      "description": "Maximum interval for backoff.",
+      "type": "java.lang.Long"
+    },
+    {
+      "sourceType": "org.springframework.cloud.consul.RetryProperties",
+      "name": "spring.cloud.consul.retry.multiplier",
+      "description": "Multiplier for next interval.",
+      "type": "java.lang.Double"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+/Users/xiningwang/localgit/spring-cloud-consul/spring-cloud-consul-config/src/main/java/org/springframework/cloud/consul/config/ConsulConfigAutoConfiguration.java
+/Users/xiningwang/localgit/spring-cloud-consul/spring-cloud-consul-config/src/main/java/org/springframework/cloud/consul/config/ConsulPropertySourceLocator.java
+/Users/xiningwang/localgit/spring-cloud-consul/spring-cloud-consul-config/src/main/java/org/springframework/cloud/consul/config/ConsulPropertySource.java
+/Users/xiningwang/localgit/spring-cloud-consul/spring-cloud-consul-config/src/main/java/org/springframework/cloud/consul/config/ConfigWatch.java
+/Users/xiningwang/localgit/spring-cloud-consul/spring-cloud-consul-config/src/main/java/org/springframework/cloud/consul/config/PropertySourcesLocatedEvent.java
+/Users/xiningwang/localgit/spring-cloud-consul/spring-cloud-consul-config/src/main/java/org/springframework/cloud/consul/config/ConsulFilesPropertySource.java
+/Users/xiningwang/localgit/spring-cloud-consul/spring-cloud-consul-config/src/main/java/org/springframework/cloud/consul/config/ConsulConfigBootstrapConfiguration.java
+/Users/xiningwang/localgit/spring-cloud-consul/spring-cloud-consul-config/src/main/java/org/springframework/cloud/consul/config/ConsulConfigProperties.java

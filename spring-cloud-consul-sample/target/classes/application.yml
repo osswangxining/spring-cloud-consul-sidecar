@@ -1,0 +1,38 @@
+server:
+  port: 8092
+
+spring:
+  application:
+    name: ${side-app-name:consul-sidecar-myapp}
+
+sidecar:
+  port: ${port:3000}
+  health-uri: http://localhost:${sidecar.port}/${health-uri:healthcheck}
+  home-page-uri: http://localhost:${sidecar.port}/
+
+zuul:
+  routes:
+    api-1:
+      path: /sidecar/**
+      url: ${sidecar.home-page-uri}
+              
+ribbon:
+  ServerListRefreshInterval: 1000
+
+endpoints:
+  health:
+    sensitive: false
+  restart:
+    enabled: true
+  shutdown:
+    enabled: true
+
+management:
+  security:
+    enabled: false
+
+logging:
+  level:
+    org.springframework.cloud.consul: DEBUG
+    
+  

@@ -1,0 +1,6 @@
+/Users/xiningwang/localgit/spring-cloud-consul/spring-cloud-consul-sidecar/src/main/java/org/springframework/cloud/consul/sidecar/EnableSidecar.java
+/Users/xiningwang/localgit/spring-cloud-consul/spring-cloud-consul-sidecar/src/main/java/org/springframework/cloud/consul/sidecar/ConsulSidecarApplication.java
+/Users/xiningwang/localgit/spring-cloud-consul/spring-cloud-consul-sidecar/src/main/java/org/springframework/cloud/consul/sidecar/SidecarProperties.java
+/Users/xiningwang/localgit/spring-cloud-consul/spring-cloud-consul-sidecar/src/main/java/org/springframework/cloud/consul/sidecar/LocalApplicationHealthIndicator.java
+/Users/xiningwang/localgit/spring-cloud-consul/spring-cloud-consul-sidecar/src/main/java/org/springframework/cloud/consul/sidecar/SidecarController.java
+/Users/xiningwang/localgit/spring-cloud-consul/spring-cloud-consul-sidecar/src/main/java/org/springframework/cloud/consul/sidecar/SidecarConfiguration.java

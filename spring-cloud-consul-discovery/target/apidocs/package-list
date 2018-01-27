@@ -1,0 +1,4 @@
+org.springframework.cloud.consul.discovery
+org.springframework.cloud.consul.discovery.configclient
+org.springframework.cloud.consul.discovery.filters
+org.springframework.cloud.consul.serviceregistry

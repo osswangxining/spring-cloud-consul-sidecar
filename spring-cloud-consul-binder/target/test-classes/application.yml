@@ -1,0 +1,14 @@
+
+spring:
+  cloud:
+    stream:
+      binders:
+        purchases:
+          type: consul
+      consul:
+        binder:
+management:
+  security:
+    enabled: false
+#          host: localhost
+#          port: 18500

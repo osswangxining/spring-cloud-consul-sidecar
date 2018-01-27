@@ -1,0 +1,48 @@
+/*
+ * Copyright 2013-2016 the original author or authors.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+package org.springframework.cloud.consul.discovery.configclient;
+
+import org.springframework.boot.autoconfigure.condition.ConditionalOnClass;
+import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
+import org.springframework.cloud.commons.util.InetUtils;
+import org.springframework.cloud.config.client.ConfigServicePropertySourceLocator;
+import org.springframework.cloud.consul.ConsulAutoConfiguration;
+import org.springframework.cloud.consul.discovery.ConsulDiscoveryClientConfiguration;
+import org.springframework.cloud.consul.discovery.ConsulDiscoveryProperties;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.Import;
+
+/**
+ * Helper for config client that wants to lookup the config server via discovery.
+ *
+ * @author Spencer Gibb
+ */
+@ConditionalOnClass(ConfigServicePropertySourceLocator.class)
+@ConditionalOnProperty(value = "spring.cloud.config.discovery.enabled", matchIfMissing = false)
+@Configuration
+@Import({ ConsulAutoConfiguration.class, ConsulDiscoveryClientConfiguration.class})
+public class ConsulDiscoveryClientConfigServiceBootstrapConfiguration {
+
+	@Bean
+	public ConsulDiscoveryProperties consulDiscoveryProperties(InetUtils inetUtils) {
+		ConsulDiscoveryProperties properties = new ConsulDiscoveryProperties(inetUtils);
+		// for bootstrap, lifecycle (and hence registration) is not needed, just discovery client
+		properties.getLifecycle().setEnabled(false);
+		return properties;
+	}
+}

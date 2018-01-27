@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: testConsulApp
+  cloud:
+    consul:
+      config:
+        format: YAML
+    bus:
+      trace:
+        enabled: true    

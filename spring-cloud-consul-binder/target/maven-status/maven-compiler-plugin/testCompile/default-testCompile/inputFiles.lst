@@ -1,0 +1,6 @@
+/Users/xiningwang/localgit/spring-cloud-consul/spring-cloud-consul-binder/src/test/java/org/springframework/cloud/consul/binder/config/ConsulBinderConfigurationTests.java
+/Users/xiningwang/localgit/spring-cloud-consul/spring-cloud-consul-binder/src/test/java/org/springframework/cloud/consul/binder/ConsulBinderTests.java
+/Users/xiningwang/localgit/spring-cloud-consul/spring-cloud-consul-binder/src/test/java/org/springframework/cloud/consul/binder/ConsulInboundMessageProducerTests.java
+/Users/xiningwang/localgit/spring-cloud-consul/spring-cloud-consul-binder/src/test/java/org/springframework/cloud/consul/binder/test/producer/TestProducer.java
+/Users/xiningwang/localgit/spring-cloud-consul/spring-cloud-consul-binder/src/test/java/org/springframework/cloud/consul/binder/test/consumer/TestConsumer.java
+/Users/xiningwang/localgit/spring-cloud-consul/spring-cloud-consul-binder/src/test/java/org/springframework/cloud/consul/binder/ConsulBinderApplicationTests.java

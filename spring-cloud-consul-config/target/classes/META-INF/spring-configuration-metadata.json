@@ -1,0 +1,84 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "org.springframework.cloud.consul.config.ConsulConfigProperties",
+      "name": "spring.cloud.consul.config",
+      "type": "org.springframework.cloud.consul.config.ConsulConfigProperties"
+    },
+    {
+      "sourceType": "org.springframework.cloud.consul.config.ConsulConfigProperties",
+      "name": "spring.cloud.consul.config.watch",
+      "sourceMethod": "public org.springframework.cloud.consul.config.ConsulConfigProperties.Watch getWatch() ",
+      "type": "org.springframework.cloud.consul.config.ConsulConfigProperties$Watch"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "org.springframework.cloud.consul.config.ConsulConfigProperties",
+      "name": "spring.cloud.consul.config.acl-token",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.cloud.consul.config.ConsulConfigProperties",
+      "name": "spring.cloud.consul.config.data-key",
+      "description": "If format is Format.PROPERTIES or Format.YAML\n then the following field is used as key to look up consul for configuration.",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.cloud.consul.config.ConsulConfigProperties",
+      "name": "spring.cloud.consul.config.default-context",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.cloud.consul.config.ConsulConfigProperties",
+      "name": "spring.cloud.consul.config.enabled",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "org.springframework.cloud.consul.config.ConsulConfigProperties",
+      "name": "spring.cloud.consul.config.fail-fast",
+      "description": "Throw exceptions during config lookup if true, otherwise, log warnings.",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "org.springframework.cloud.consul.config.ConsulConfigProperties",
+      "name": "spring.cloud.consul.config.format",
+      "type": "org.springframework.cloud.consul.config.ConsulConfigProperties$Format"
+    },
+    {
+      "sourceType": "org.springframework.cloud.consul.config.ConsulConfigProperties",
+      "name": "spring.cloud.consul.config.name",
+      "description": "Alternative to spring.application.name to use in looking up values in consul KV.",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.cloud.consul.config.ConsulConfigProperties",
+      "name": "spring.cloud.consul.config.prefix",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.cloud.consul.config.ConsulConfigProperties",
+      "name": "spring.cloud.consul.config.profile-separator",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.cloud.consul.config.ConsulConfigProperties$Watch",
+      "name": "spring.cloud.consul.config.watch.delay",
+      "description": "The value of the fixed delay for the watch in millis. Defaults to 1000.",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "org.springframework.cloud.consul.config.ConsulConfigProperties$Watch",
+      "name": "spring.cloud.consul.config.watch.enabled",
+      "description": "If the watch is enabled. Defaults to true.",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "org.springframework.cloud.consul.config.ConsulConfigProperties$Watch",
+      "name": "spring.cloud.consul.config.watch.wait-time",
+      "description": "The number of seconds to wait (or block) for watch query, defaults to 55.\n Needs to be less than default ConsulClient (defaults to 60). To increase ConsulClient\n timeout create a ConsulClient bean with a custom ConsulRawClient with a custom\n HttpClient.",
+      "type": "java.lang.Integer"
+    }
+  ]
+}

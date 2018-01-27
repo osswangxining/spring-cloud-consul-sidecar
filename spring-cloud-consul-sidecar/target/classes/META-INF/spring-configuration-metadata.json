@@ -1,0 +1,37 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "org.springframework.cloud.consul.sidecar.SidecarProperties",
+      "name": "sidecar",
+      "type": "org.springframework.cloud.consul.sidecar.SidecarProperties"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "org.springframework.cloud.consul.sidecar.SidecarProperties",
+      "name": "sidecar.health-uri",
+      "type": "java.net.URI"
+    },
+    {
+      "sourceType": "org.springframework.cloud.consul.sidecar.SidecarProperties",
+      "name": "sidecar.home-page-uri",
+      "type": "java.net.URI"
+    },
+    {
+      "sourceType": "org.springframework.cloud.consul.sidecar.SidecarProperties",
+      "name": "sidecar.hostname",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.cloud.consul.sidecar.SidecarProperties",
+      "name": "sidecar.ip-address",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.cloud.consul.sidecar.SidecarProperties",
+      "name": "sidecar.port",
+      "type": "java.lang.Integer"
+    }
+  ]
+}
